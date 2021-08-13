@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    android:background="@drawable/back"
+    tools:context=".activitys.MainActivity">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_marginTop="@dimen/_3sdp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:id="@+id/iv_capture"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_200sdp"
+            android:src="@drawable/ic_sentiment_analysis"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <Button
+            android:id="@+id/btn_take_picture"
+            android:layout_width="@dimen/_270sdp"
+            android:layout_height="@dimen/_50sdp"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:paddingStart="@dimen/_10sdp"
+            android:paddingEnd="@dimen/_10sdp"
+            android:background="@drawable/shap_button"
+            android:drawableEnd="@drawable/ic_camera"
+            android:drawablePadding="@dimen/_20sdp"
+            android:text="@string/MainActivity_btnTakePic"
+            android:textColor="@color/colorPrimary"
+            android:textSize="@dimen/_16ssp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/iv_capture" />
+
+        <Button
+            android:id="@+id/btn_insert_picture"
+            android:layout_width="@dimen/_270sdp"
+            android:layout_height="@dimen/_50sdp"
+            android:layout_gravity="center"
+            android:paddingStart="@dimen/_10sdp"
+            android:paddingEnd="@dimen/_10sdp"
+            android:background="@drawable/shap_button"
+            android:drawableEnd="@drawable/ic_image"
+            android:text="@string/MainActivity_btnOpenGaraly"
+            android:textColor="@color/colorPrimary"
+            android:textSize="@dimen/_16ssp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/btn_take_picture" />
+
+
+
+        <ListView
+            android:id="@+id/lv_probabilities"
+            android:layout_width="wrap_content"
+            android:layout_height="341dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/btn_insert_picture" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</ScrollView>

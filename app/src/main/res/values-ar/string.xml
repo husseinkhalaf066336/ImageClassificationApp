@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">TensorImageClassification</string>
+
+    <!--  MainActivty-->
+    <string name="MainActivity_btnTakePic">التقط صورة ليتم تحليلها </string>
+    <string name="MainActivity_btnOpenGaraly">ادرج صورة من المعرض</string>
+
+
+    <!--  starting_activity-->
+    <string name="starting_activity_TextView_welcome">مرحبا بك في</string>
+    <string name="starting_activity_TextView1">تطبيق تحليل الصور ومعرفة الأشياء </string>
+    <string name="starting_activity_TextVie2">باستخدام تقنيات الذكاء الإصطناعي</string>
+    <string name="starting_activity_btnGoToMainActivity">هيا لنذهب</string>
+    <string name="starting_activity__btn_settings">الإعدادات</string>
+
+
+    <!--Languge-->
+    <string name="LangugeActivity_txtview">تغير اللغة التطبيق </string>
+    <string name="LangugeActivity_btn_ar">اللغة العربية</string>
+    <string name="LangugeActivity_btn_en">اللغة الإنكليزية</string>
+
+
+</resources>
