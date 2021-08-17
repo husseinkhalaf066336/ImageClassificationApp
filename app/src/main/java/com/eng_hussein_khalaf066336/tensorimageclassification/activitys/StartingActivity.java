@@ -31,6 +31,8 @@ public class StartingActivity extends AppCompatActivity {
             public void onClick(View v) {
                 Intent intent=new Intent(getBaseContext(),ChangeLanguageActivity.class);
                 startActivity(intent);
+                //Note that this activity is closed because it will be opened again when the language changes
+                //If it is not closed, it will open twice
                 finish();
             }
         });

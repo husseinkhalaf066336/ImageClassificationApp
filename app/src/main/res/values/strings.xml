@@ -1,23 +1,23 @@
 <resources>
-    <string name="app_name">TensorImageClassification</string>
+    <string name="app_name">ImageClassification</string>
 
     <!--  MainActivity-->
-    <string name="MainActivity_btnTakePic">Take a picture to be analyzed </string>
-    <string name="MainActivity_btnOpenGaraly">Insert an image from the gallery</string>
+    <string name="MainActivity_btn_Take_Pic">Take a picture to be guessed </string>
+    <string name="MainActivity_btn_Open_Gallery">Insert an image from the gallery</string>
 
 
-    <!--  DiagnosesFragment-->
-    <string name="starting_activity_TextView_welcome">you welcome in</string>
-    <string name="starting_activity_TextView1">Object tracking and image recognition service</string>
+    <!--  starting_activity-->
+    <string name="starting_activity_TextView_welcome">Welcome to our app</string>
+    <string name="starting_activity_TextView1">Take pictures for the app to guess and find out</string>
     <string name="starting_activity_TextVie2">Using artificial intelligence</string>
     <string name="starting_activity_btnGoToMainActivity">Let,s go</string>
-    <string name="starting_activity__btn_settings">Let,s go</string>
+    <string name="starting_activity__btn_Language">Language</string>
 
 
-    <!--Languge-->
-    <string name="LangugeActivity_txtview">Can you change the language </string>
-    <string name="LangugeActivity_btn_ar">Arabic </string>
-    <string name="LangugeActivity_btn_en">English </string>
+    <!--Language-->
+    <string name="LanguageActivity_textview">Can you change the language </string>
+    <string name="LanguageActivity_btn_ar">Arabic </string>
+    <string name="LanguageActivity_btn_en">English </string>
 
 
 </resources>

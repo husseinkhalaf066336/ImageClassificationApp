@@ -32,9 +32,6 @@ public class ChangeLanguageActivity extends AppCompatActivity {
 
         locale= ConfigurationCompat.getLocales(Resources.getSystem().getConfiguration()).get(0);
         DefaultLanguage=locale.getLanguage();
-
-        Toast.makeText(this, ""+DefaultLanguage, Toast.LENGTH_SHORT).show();
-
         Language_btn_AR.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -61,14 +58,12 @@ public class ChangeLanguageActivity extends AppCompatActivity {
         getResources().updateConfiguration(conf, dm);
 
         ImageClassifier.Label_language=lang;
-
+        // is opened "SplashScreenActivity" Until changes are made to the application as a whole
+        //While the same activity is not reopened, the application language will not change unless it is reopened
         Intent intent = new Intent(getBaseContext(), SplashScreenActivity.class);
         startActivity(intent);
         finish();
 
-        //  Intent intent = new Intent(getBaseContext(),LanguagActivity.class);
-        //  startActivity(intent);
-        //finish();
-        // startActivity(getIntent());
     }
+
 }
