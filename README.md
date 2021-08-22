@@ -1,6 +1,9 @@
 # ImageClassificationApp
 ## Using Tech:
 ### It is mainly relied on TensorFlow Lite,The image classification model is trained to recognize different categories of images
+## To download the tensor flow model
+### You can download the template that matches the Android environment and customize it according to your need :
+https://www.tensorflow.org/lite/examples/image_classification/overview
 ## Screenshot 
 ### Splash Screen:
 ![Screenshot_٢٠٢١٠٨٢٢-١٠٣٧٣٢](https://user-images.githubusercontent.com/88562339/130346739-f076c99c-c6ca-4d79-8c6d-1dc1abd7fd92.jpg)
