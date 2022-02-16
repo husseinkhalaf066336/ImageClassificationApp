@@ -4,6 +4,15 @@
 ## To download the tensor flow model
 ### You can download the template that matches the Android environment and customize it according to your need :
 https://www.tensorflow.org/lite/examples/image_classification/overview
+## useing t Libraries and Frameworks:
+- [Material Design](https://material.io/design) - Design System
+- [Splash Screen](https://developer.android.com/reference/android/window/SplashScreen)
+- [Lottie](https://lottiefiles.com/) -Animation
+- [intuit](https://github.com/intuit/sdp)
+- [RecyclerView](https://developer.android.com/reference/kotlin/androidx/recyclerview/widget/RecyclerView)
+- [uses-permission](https://developer.android.com/guide/topics/manifest/uses-permission-element)
+- [tensorflow models and dataset](https://www.tensorflow.org/resources/models-datasets)
+
 ## Screenshot 
 ### Splash Screen:
 ![Screenshot_٢٠٢١٠٨٢٢-١٠٣٧٣٢](https://user-images.githubusercontent.com/88562339/130346739-f076c99c-c6ca-4d79-8c6d-1dc1abd7fd92.jpg)
