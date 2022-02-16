@@ -1,4 +1,4 @@
-# ImageClassificationApp
+# guesser-things-App
 ## Using Tech:
 ### It is mainly relied on TensorFlow Lite,The image classification model is trained to recognize different categories of images
 ## To download the tensor flow model
