@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">ImageClassification</string>
+    <string name="app_name">Guesser Picture</string>
 
     <!--  MainActivity-->
     <string name="MainActivity_btn_Take_Pic">Take a picture to be guessed </string>
