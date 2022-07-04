@@ -12,6 +12,9 @@ https://www.tensorflow.org/lite/examples/image_classification/overview
 - [RecyclerView](https://developer.android.com/reference/kotlin/androidx/recyclerview/widget/RecyclerView)
 - [uses-permission](https://developer.android.com/guide/topics/manifest/uses-permission-element)
 - [tensorflow models and dataset](https://www.tensorflow.org/resources/models-datasets)
+-
+## APK
+- [App Apk](https://github.com/husseinkhalaf066336/ImageClassificationApp/blob/master/app/release/app-release.apk)
 
 ## Screenshot 
 ### Splash Screen:
